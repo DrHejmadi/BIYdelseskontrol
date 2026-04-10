@@ -1,0 +1,39 @@
+name: BIYdelseskontrol
+options:
+  bundleIdPrefix: com.biydelseskontrol
+  deploymentTarget:
+    macOS: "14.0"
+  xcodeVersion: "16.0"
+
+packages:
+  CoreXLSX:
+    url: https://github.com/CoreOffice/CoreXLSX
+    from: "0.14.0"
+
+targets:
+  BIYdelseskontrol:
+    type: application
+    platform: macOS
+    sources:
+      - BIYdelseskontrol
+    dependencies:
+      - package: CoreXLSX
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.biydelseskontrol.app
+        PRODUCT_NAME: BI Ydelseskontrol
+        MARKETING_VERSION: "1.0.0"
+        CURRENT_PROJECT_VERSION: "2"
+        SWIFT_VERSION: "5.9"
+        MACOSX_DEPLOYMENT_TARGET: "14.0"
+        ENABLE_HARDENED_RUNTIME: true
+        CODE_SIGN_ENTITLEMENTS: BIYdelseskontrol/BIYdelseskontrol.entitlements
+        CODE_SIGN_STYLE: Automatic
+        DEVELOPMENT_TEAM: LB2RAFK9K9
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        INFOPLIST_KEY_LSApplicationCategoryType: "public.app-category.medical"
+        INFOPLIST_KEY_CFBundleDisplayName: "BI Ydelseskontrol"
+        GENERATE_INFOPLIST_FILE: true
+        INFOPLIST_KEY_NSHumanReadableCopyright: "Copyright © 2026 Lægehuset Ferritslev"
+    entitlements:
+      path: BIYdelseskontrol/BIYdelseskontrol.entitlements

@@ -1,0 +1,22 @@
+﻿CPR;Fornavn;Efternavn;Behandler;Ydelsesdato;Ydelseskode;Ydelsestekst;Antal;Ydelsesbeloeb;Initialer
+0101501234;Anders;Jensen;Dr. Hansen;15-03-2025;0101;Konsultation;1;172,88;MH
+0202601234;Bente;Larsen;Dr. Hansen;15-03-2025;0101;Konsultation;1;172,88;MH
+0303701234;Carl;Madsen;Dr. Dam;16-03-2025;0101;Konsultation;1;172,88;DD
+0404801234;Dorte;Holm;Dr. Hansen;15-03-2025;0101;Konsultation;1;172,88;MH
+0505901234;Erik;Skov;Dr. Dam;17-03-2025;0101;Konsultation;1;172,88;DD
+0606021234;Fie;Andersen;Dr. Hansen;16-03-2025;0101;Konsultation;1;172,88;MH
+0707031234;Gitte;Bak;Dr. Dam;17-03-2025;0101;Konsultation;1;172,88;DD
+0808041234;Hans;Dahl;Dr. Hansen;17-03-2025;0101;Konsultation;1;172,88;MH
+0909051234;Inge;Frost;Dr. Dam;18-03-2025;0101;Konsultation;1;172,88;DD
+1010061234;Jens;Gade;Dr. Hansen;18-03-2025;0105;E-konsultation;1;36,07;MH
+1313091234;Mette;Jensen;Dr. Hansen;19-03-2025;0101;Konsultation;1;172,88;MH
+1414101234;Niels;Krogh;Dr. Dam;19-03-2025;0101;Konsultation;1;172,88;DD
+1515111234;Oda;Lund;Dr. Hansen;15-03-2025;0101;Konsultation;1;172,88;MH
+1515111234;Oda;Lund;Dr. Hansen;15-03-2025;2101;Blodtagning;1;48,74;MH
+1616121234;Peter;Mark;Dr. Dam;15-03-2025;0101;Konsultation;1;172,88;DD
+1717131234;Rikke;Nord;Dr. Hansen;16-03-2025;0120;Aarsstatus;1;602,32;MH
+1818141234;Steen;Olsen;Dr. Dam;17-03-2025;0101;Konsultation;1;172,88;DD
+1919151234;Tina;Pagh;Dr. Hansen;18-03-2025;0101;Konsultation;1;172,88;MH
+2020161234;Uffe;Ravn;Dr. Dam;19-03-2025;0101;Konsultation;1;172,88;DD
+2121171234;Vera;Sand;Dr. Hansen;15-03-2025;0101;Konsultation;1;172,88;MH
+2121171234;Vera;Sand;Dr. Hansen;15-03-2025;7120;CRP;1;75,93;MH
